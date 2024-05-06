@@ -68,3 +68,13 @@ then
 else
   echo both are not-equal
 fi  
+
+java -version
+
+
+if [[ $? != 0 ]]
+then 
+  sudo apt install openjdk-8-jre-headless   
+else
+  echo "Can't install Java"
+fi  
