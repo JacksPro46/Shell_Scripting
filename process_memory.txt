@@ -1,0 +1,22 @@
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  477G  102G  375G  22% /
+59K	./.git/hooks
+1.0K	./.git/info
+1.0K	./.git/logs/refs/heads
+2.0K	./.git/logs/refs/remotes/origin
+2.0K	./.git/logs/refs/remotes
+3.0K	./.git/logs/refs
+4.0K	./.git/logs
+4.0K	./.git/objects/22
+1.0K	./.git/objects/46
+1.0K	./.git/objects/8b
+0	./.git/objects/info
+13K	./.git/objects/pack
+23K	./.git/objects
+1.0K	./.git/refs/heads
+2.0K	./.git/refs/remotes/origin
+2.0K	./.git/refs/remotes
+0	./.git/refs/tags
+3.0K	./.git/refs
+107K	./.git
+137K	.
