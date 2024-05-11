@@ -28,6 +28,21 @@ then
     operating_systems[3]='CentOS'
     echo ${operating_systems[@]} :  Hey the ${new_os_cent} added recently in the existing array
     echo ${!operating_systems[@]}
+    unset operating_systems[2]  ## this will remove the value from array at mentioned position using unset keyword
+    echo ${operating_systems[@]}
 else
   echo "Os is different"
 fi   
+
+check_az=az
+# login=az login
+
+if [[ -n $check_az ]]
+then 
+  az --version
+  echo "Azure is available" 
+  
+else
+  echo "No azure is available"
+fi    
+  
